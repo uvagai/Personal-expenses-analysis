@@ -1,30 +1,3 @@
-import mysql.connector
-
-
-connection = mysql.connector.connect(
-    host="localhost",          
-    user="root",      
-    password="uvagai@11"  
-)
-
-
-cursor = connection.cursor()
-#create database
-create_database_query = "CREATE DATABASE IF NOT EXISTS personel_expenses "
-
-try:
-  
-    cursor.execute(create_database_query)
-    print("database is created")
-except mysql.connector.Error as err:
-    print(f"Error:{err}")
-
-
-cursor.close()
-connection.close()
-
-
-
 #create seperate month data for 12 month
 
 import mysql.connector
