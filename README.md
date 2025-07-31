@@ -46,5 +46,5 @@ The goal is to build an end-to-end expense tracker that:
 - Are there any recurring or seasonal expenses?
 - (And 20+ more insights...)
 
-## Repository Structure
+
 
